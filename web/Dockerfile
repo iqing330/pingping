@@ -1,5 +1,0 @@
-FROM openjdk:8
-
-ENV APP_HOME /app
-
-WORKDIR $APP_HOME

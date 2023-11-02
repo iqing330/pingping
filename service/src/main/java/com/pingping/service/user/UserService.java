@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author iqing.wyx
  * @version UserService.java, v 0.1 2023年10月31日 下午4:17 Exp $
  */
-@FeignClient(name = "user")
+@FeignClient(name = "user", url = "http://user")
 public interface UserService {
 
     @GetMapping(path = "/user")

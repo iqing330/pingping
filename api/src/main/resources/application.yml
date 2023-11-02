@@ -8,5 +8,5 @@ eureka:
     service-url:
       defaultZone: http://${eureka.instance.hostname}/eureka/
   instance:
-    hostname: eureka
+    hostname: eureka:8761
 

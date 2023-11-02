@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # 编译项目
-RUN mvn -s settings.xml -pl service,portal clean package
+RUN mvn -s settings.xml -pl core,service,portal clean package
 
 # 采用java官方镜像做为运行时镜像
 FROM openjdk:8

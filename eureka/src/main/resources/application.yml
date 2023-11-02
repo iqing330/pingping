@@ -10,4 +10,4 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}/eureka
 spring:
   application:
-    name: eureka
+    name: eureka:8761

@@ -2,11 +2,9 @@ spring:
   application:
     name: trade
 server:
-  port: 19082
+  port: 80
 eureka:
-  instance:
-    hostname: eureka:8761
   client:
     service-url:
-      defaultZone: http://${eureka.instance.hostname}/eureka/
+      defaultZone: http://eureka/eureka/
 

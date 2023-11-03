@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author iqing.wyx
  * @version OrderService.java, v 0.1 2023年10月31日 下午4:15 Exp $
  */
-@FeignClient(name = "order", url = "http://oder")
+@FeignClient(name = "order", url = "http://order")
 public interface OrderService {
 
     @GetMapping(path = "/order")

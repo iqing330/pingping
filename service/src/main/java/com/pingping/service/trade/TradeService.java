@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author iqing.wyx
  * @version TradeService.java, v 0.1 2023年10月31日 下午4:17 Exp $
  */
-@FeignClient(name = "trade")
+@FeignClient(name = "trade", url = "http://trade")
 public interface TradeService {
 
     @GetMapping(path = "/trade")
